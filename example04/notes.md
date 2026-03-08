@@ -1,7 +1,7 @@
-Rule: Close resources after use
+Secure coding concept: Close resources after use
 
 Problem:
-The vulnerable version opens a Scanner for a file but never closes it.
+The program opens a Scanner for a file but does not close it.
 
 Fix:
-The corrected version uses try-with-resources so the Scanner is automatically closed. (a lot safer)
+The fixed version uses try-with-resources so the Scanner closes automatically. (a lot safer)

@@ -1,7 +1,7 @@
-Rule: Compare strings using equals
+Secure coding concept: Compare strings correctly
 
 Problem:
-The vulnerable version uses == for strings, which compares references instead of content.
+The program uses == to compare strings, which checks references instead of contents.
 
 Fix:
-The corrected version uses equals to compare the actual string values.
+The fixed version uses equals to compare the actual text.

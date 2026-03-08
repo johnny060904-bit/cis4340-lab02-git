@@ -1,7 +1,7 @@
-Rule: Input validation for command-line arguments
+Secure coding concept: Validate command-line input
 
 Problem:
-The vulnerable version uses the command-line argument without checking it.
+The program uses the file name argument without checking it first.
 
 Fix:
-The corrected version makes sure an argument was given and rejects unsafe file name patterns.
+The fixed version checks that an argument exists and rejects unsafe patterns.

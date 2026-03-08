@@ -1,7 +1,7 @@
-Rule: Input validation
+Secure coding concept: Input validation
 
 Problem:
-The vulnerable version just assumes the user enters an integer.
+The program assumes the user types an integer.
 
 Fix:
-The corrected version checks if the input is even an integer before using it.
+The fixed version checks the input before using it. (if its an integer or not)

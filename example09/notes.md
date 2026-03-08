@@ -1,7 +1,7 @@
-Rule: Use correct loop bounds
+Secure coding concept: Use correct loop bounds
 
 Problem:
-The vulnerable version goes past the end of the array.
+The loop goes one step past the end of the array.
 
 Fix:
-The corrected version uses a proper loop condition so the index stays in range.
+The fixed version changes the loop condition so the index stays valid.

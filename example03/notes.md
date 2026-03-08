@@ -1,7 +1,7 @@
-Rule: Validate array indexes before use
+Secure coding concept: Validate array indexes
 
 Problem:
-The vulnerable version uses an index that may be outside the array bounds.
+The program uses an index that could be outside the array.
 
 Fix:
-The corrected version checks that the index is valid before accessing the array. (i.e. if its in the array bounds)
+The fixed version checks that the index is within range before accessing the array. (if its within the bounds)

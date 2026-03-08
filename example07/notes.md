@@ -1,7 +1,7 @@
-Rule: Do not expose mutable internal data
+Secure coding concept: Protect internal mutable data
 
 Problem:
-The vulnerable version returns the original array, so outside code can change it.
+The program returns its original array, so other code can change it.
 
 Fix:
-The corrected version returns a copy of the array instead.
+The fixed version returns a copy of the array instead.

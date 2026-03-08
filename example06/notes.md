@@ -1,7 +1,7 @@
-Rule: Check values before division
+Secure coding concept: Validate values before calculations
 
 Problem:
-The vulnerable version divides by zero, which causes a runtime error.
+The program divides by zero, which causes a runtime error.
 
 Fix:
-The corrected version checks that the divisor is not zero before dividing.
+The fixed version checks the divisor before dividing.
